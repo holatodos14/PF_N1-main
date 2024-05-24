@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Todo App</title>
+    <link rel="stylesheet" href="./styles/style.css">
+    <script src="https://kit.fontawesome.com/1dac76cae0.js" crossorigin="anonymous"></script>
+    <script defer src="./scripts/main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>#todo</h1>
+        <div class="tabs">
+          <nav>
+            <button id="all" class="tab active">All</button>
+            <button id="active" class="tab">Active</button>
+            <button id="completed" class="tab">Completed</button>
+          </nav>
+          <hr>
+        </div>
+        <div class="input-container">
+            <input type="text" id="new-task" placeholder="    add details">
+            <button id="add-btn">Add</button>
+        </div>
+        <ul id="task-list">
+          
+        </ul>
+        <div class="delete-all-hidden">
+          <button id="delete-all-btn" ><i class="fa-solid fa-trash"></i>delete all</button>
+        </div>
+    </div>
+</body>
+</html>
